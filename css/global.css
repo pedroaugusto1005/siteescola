@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+
+  --color1: rgb(243, 105, 55);
+  --color2: rgb(52, 192, 111);
+  --black: #181818;
+}
+
+html,
+:root {
+  text-rendering: optimizeLegibility;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-bar {
+  font-family: 'Open Sans', sans-serif;
+  background: var(--color2);
+  color: #fff;
+  padding: 4px;
+  font-size: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.back h6{
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(95, 84, 84);
+  padding: 4px;
+  text-align: end;
+  justify-content: space-between;
+  display: flex;
+  margin: 30px
+}
+.dr h2{
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+  color :black;
+  
+ 
+}
+.redes{
+  width: 40px;
+}
+.brasao img{
+width: 100px;
+padding: 2%;
+float: left;
+
+}
